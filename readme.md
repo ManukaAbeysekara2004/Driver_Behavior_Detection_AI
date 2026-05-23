@@ -27,8 +27,8 @@ Follow these steps to set up and run the project locally on your machine:
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-github-repository-url>
-cd <repository-folder-name>
+git clone https://github.com/ManukaAbeysekara2004/Driver_Behavior_Detection_AI.git
+cd Driver_Behavior_Detection_AI
 ```
 
 ### 2. Setup the Environment & Dependencies
