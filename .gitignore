@@ -1,0 +1,14 @@
+# IDE and environment configs
+.idea/
+.ipynb_checkpoints/
+.venv/
+
+# Datasets and training logs (Too large)
+dataset/
+runs/
+
+# Large Model Weights (PT Files)
+*.pt
+
+# Test Images / temporary files
+group-of-people-18.jpg
