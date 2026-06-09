@@ -31,8 +31,29 @@ git clone https://github.com/ManukaAbeysekara2004/Driver_Behavior_Detection_AI.g
 cd Driver_Behavior_Detection_AI
 ```
 
-### 2. Setup the Environment & Dependencies
-* Ensure you have Python installed, then install the necessary libraries using the requirements.txt file:
+### 2. Setup the Virtual Environment
+* It is highly recommended to use Python **3.10** or **3.11** for this project to avoid package version conflicts.
+* Create a virtual environment to isolate the project dependencies:
+```bash
+# On Windows (If you have multiple Python versions installed):
+py -3.10 -m venv venv
+
+# On Mac/Linux (Or alternative Windows setup):
+python3.10 -m venv venv
+
+# Activate the virtual environment
+# On Windows (PowerShell):
+.\venv\Scripts\Activate
+
+# On Windows (CMD):
+.\venv\Scripts\activate.bat
+
+# On macOS/Linux:
+source venv/bin/activate
+```
+
+### 3. Setup the Environment & Dependencies
+* Once your virtual environment is ***activated***, install all the required libraries using the requirements.txt file:
 
 ``` Bash
 pip install -r requirements.txt
