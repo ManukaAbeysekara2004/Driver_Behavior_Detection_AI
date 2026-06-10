@@ -28,13 +28,15 @@ Follow these steps to set up and run the project locally on your machine:
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/ManukaAbeysekara2004/Driver_Behavior_Detection_AI.git
-cd Driver_Behavior_Detection_AI
 ```
 
 ### 2. Setup the Virtual Environment
 * It is highly recommended to use Python **3.10** or **3.11** for this project to avoid package version conflicts.
 * Create a virtual environment to isolate the project dependencies:
 ```bash
+# go inside the Driver_Behavior_Detection_AI folder 
+cd Driver_Behavior_Detection_AI
+
 # On Windows (If you have multiple Python versions installed):
 py -3.10 -m venv venv
 
