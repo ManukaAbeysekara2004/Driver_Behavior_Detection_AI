@@ -60,8 +60,13 @@ pip install -r requirements.txt
 ```
 
 ### 3. Place Dataset and Weights
-* Download the dataset zip file from Hugging Face and extract it inside a root folder named dataset/.
-* Download the runs file from Hugging Face and place it in your root directory.
+* Download Dataset
+   - Download the dataset from Hugging Face.
+   - Extract it and place it in the root directory under the folder name `dataset/`.
+
+*  Download Trained Weights (runs)
+   - Download the trained weights (runs) from Hugging Face.
+   - Extract it and place it in the root directory under the folder name `runs/`.
 
 ### 4. Run the Driver Detection System
 * Open the Driver Behavior.ipynb notebook using Jupyter Lab/Notebook or VS Code, and run the cells to start the training or real-time camera inference.
