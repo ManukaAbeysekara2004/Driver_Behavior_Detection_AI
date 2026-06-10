@@ -60,11 +60,11 @@ pip install -r requirements.txt
 ```
 
 ### 3. Place Dataset and Weights
-* Download Dataset
+* Download Dataset: [Link](https://huggingface.co/datasets/Manuka0329/driver-behavior-dataset/tree/main)
    - Download the dataset from Hugging Face.
    - Extract it and place it in the root directory under the folder name `dataset/`.
 
-*  Download Trained Weights (runs)
+*  Download Trained Weights (runs): [Link](https://huggingface.co/Manuka0329/driver-behavior-yolov10/tree/main)
    - Download the trained weights (runs) from Hugging Face.
    - Extract it and place it in the root directory under the folder name `runs/`.
 
