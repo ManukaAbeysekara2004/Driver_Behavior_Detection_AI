@@ -34,18 +34,18 @@ git clone https://github.com/ManukaAbeysekara2004/Driver_Behavior_Detection_AI.g
 * It is highly recommended to use Python **3.10** or **3.11** for this project to avoid package version conflicts.
 * Create a virtual environment to isolate the project dependencies:
 ```bash
-# go inside the Driver_Behavior_Detection_AI folder 
+# Go inside the Driver_Behavior_Detection_AI folder 
 cd Driver_Behavior_Detection_AI
 
 # On Windows (If you have multiple Python versions installed):
-.\venv\Scripts\Activate.ps1
+.py -3.10 -m venv venv
 
 # On Mac/Linux (Or alternative Windows setup):
 python3.10 -m venv venv
 
 # Activate the virtual environment
 # On Windows (PowerShell):
-.\venv\Scripts\Activate
+.\venv\Scripts\Activate.ps1
 
 # On Windows (CMD):
 .\venv\Scripts\activate.bat
