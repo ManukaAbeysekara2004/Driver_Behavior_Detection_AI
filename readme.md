@@ -38,7 +38,7 @@ git clone https://github.com/ManukaAbeysekara2004/Driver_Behavior_Detection_AI.g
 cd Driver_Behavior_Detection_AI
 
 # On Windows (If you have multiple Python versions installed):
-py -3.10 -m venv venv
+.\venv\Scripts\Activate.ps1
 
 # On Mac/Linux (Or alternative Windows setup):
 python3.10 -m venv venv
